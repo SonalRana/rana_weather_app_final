@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Weather-Hourly-Display {
+  display: inline-block;
+  border: 1px solid grey;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.Temp-Display {
+display: flex;
+margin-left: 50px;
+margin-right: 50px;
+margin: 50px;
+font-size: large;
+font-weight: bold;
+}
+
+.Temp-Display-1 {
+  display: flex;
+  margin: 10px;
+  }
+
+.Temperature-Hourly-Display {
+  color: black;
+  font-weight: bold;
+}
+
+.Weather-Display {
+  display: flex;
+  border: 1px solid grey;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  flex-direction: row;
+  font-size: large;
+  font-weight: bold;
+ 
+}
+
+.Temperature-Display {
+  color: black;
+  font-weight: bold;
+}
+
+.Time-Display {
+  color: gray;
+  font-weight: bold;
+}
+
+
